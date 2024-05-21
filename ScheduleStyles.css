@@ -1,0 +1,32 @@
+.schedule-page .title {
+    color: blue;
+}
+
+.navigation button {
+    margin-right: 5px; /* Reduced margin for tighter spacing */
+    padding: 4px 8px; /* Smaller padding for a more compact look */
+    font-size: 14px; /* Smaller font size to match the smaller button size */
+    border-radius: 3px; /* Optional: adjust border-radius for style */
+    cursor: pointer; /* Ensures the cursor changes to a pointer on hover for better UX */
+    border: 1px solid #ccc; /* Optional: adds a subtle border for better button definition */
+    background-color: #f0f0f0; /* Lighter background for a more subtle look */
+    color: #333; /* Dark text for readability */
+}
+
+.error {
+    color: red;
+}
+
+.schedule-page section {
+    margin-top: 20px;
+}
+
+.navigation button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* Slightly deeper shadow on hover */
+}
+
+.navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed; /* Change cursor to indicate the button is disabled */
+}
